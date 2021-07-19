@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap");
+@import url("https://css.gg/play-button.css");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+}
+
+select {
+  background-color: white;
+  border: none;
+  border-radius: 2rem;
+  height: 2rem;
+  width: 10rem;
+  outline: none;
+}
+
+h5 {
+  padding: 1rem;
+}
+
+.heading {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  margin-top: 2rem;
+  align-items: center;
+  color: white;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: block;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+/* #b1,
+#b2,
+#b3,
+#b4,
+#b5,
+#b6,
+#b7 {
+  margin: 0 1rem;
+} */
+
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7 {
+  padding: 2rem;
+}
+
+.play,
+.clear,
+.pause {
+  display: flex;
+  border-radius: 50px;
+  margin: 2rem 0.5rem 0rem 0.5rem;
+  padding: 1rem;
+  background: none;
+  border-color: #0093e9;
+  box-shadow: none;
+  color: white;
+  border-style: none;
+}
+
+.gg-play-button-o,
+.gg-play-stop-o,
+.gg-play-pause-o {
+  --ggs: 2;
+}
+
+.on-bg {
+  background-color: #0d78b6;
+}
